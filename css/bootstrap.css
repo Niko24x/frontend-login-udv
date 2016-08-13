@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   height: 100%;
 }
+
 body {
   margin: 0;
   height: 100%;
@@ -6774,7 +6775,6 @@ button.close {
     text-align:center;
 }
 
-
 .col-centered {
     display:inline-block;
     float:none;
@@ -6782,8 +6782,17 @@ button.close {
     text-align:left;
     /* inline-block space fix */
     margin-right:-4px;
+    
 }
 
+.col-centered2 {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
 
 /*color beige para el form*/
 .panel-beige > .panel-heading {
@@ -6811,6 +6820,7 @@ button.close {
 }
 
 /*color azul para el form*/
+/*color azul para el form*/
 .panel-azul {
   border-color: #555;
 }
@@ -6836,7 +6846,71 @@ button.close {
   
 }
 
-.image{
-    background-image: url(img/login_planeador.jpg)
-    
+.imageb {
+    background-image: url(../img/login_bici.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    /*width: 100%;*/
+}
+
+.panel-bici {
+    border-color: #555; 
+    background: rgba(255,0,0,0);
+}
+
+.panel-bici > .panel-heading {
+    background: rgba(255,0,0,0);
+    border-top-right-radius:0px;
+    border-top-left-radius: 0px; 
+}
+
+.panel-bici > .panel-body {
+    background: rgba(255,0,0,0);
+    border-top-right-radius:0px;
+    border-top-left-radius: 0px; 
+}
+
+.panel-bici > .panel-footer {
+  background: rgba(255,0,0,0);
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.form-control-bici {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.btn-bici {
+  color: #000;
+  background-color: #fff;
+  border-color: #ccc;
+  transition: all 0.5s ease 0s;
+  width: 72%;
+}
+
+.btn-bici:hover{
+    color: #fff;
+    background-color: #ccc;
+    border-color: #ccc;
+}
+.botones{
+    width:25%;
+    margin: 1% 10% 1% 10%;
 }
