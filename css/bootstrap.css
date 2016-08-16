@@ -6857,8 +6857,11 @@ button.close {
 }
 
 .panel-bici {
-    border-color: #555; 
+    border-color: #878787; 
     background: rgba(255,0,0,0);
+    border-radius: 35px;
+    border-width: thick;
+    
 }
 
 .panel-bici > .panel-heading {
@@ -6874,12 +6877,13 @@ button.close {
 }
 
 .panel-bici > .panel-footer {
-  background: rgba(255,0,0,0);
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  background: #DEC9AF;
+  border-bottom-right-radius: 31px;
+  border-bottom-left-radius: 31px;
+  margin-bottom: 0;   
 }
 
-.form-control-bici {
+.form-control-transforma {
   display: block;
   width: 100%;
   height: 34px;
@@ -6888,29 +6892,66 @@ button.close {
   line-height: 1.42857143;
   color: #555;
   background-color: #fff;
-  background-image: none;
+  background-image: url(../img/transforma2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
   border: 1px solid #ccc;
   border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-.btn-bici {
-  color: #000;
+
+.form-control-mente {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
   background-color: #fff;
+  background-image: url(../img/tu_mente.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+    
+}
+
+
+
+.btn-bici {
+  color: #fff;
+  background-color: #AF9680;
   border-color: #ccc;
   transition: all 0.5s ease 0s;
-  width: 72%;
 }
 
 .btn-bici:hover{
     color: #fff;
-    background-color: #ccc;
-    border-color: #ccc;
+    background-color: #DEC9AF;
 }
 .botones{
-    width:25%;
-    margin: 1% 10% 1% 10%;
+    float: left;
+
+}
+
+.botones2{    
+   float: right;
+}
+
+.btn-bici-grande {
+  color: #fff;
+  background-color: #DEC9AF;
+  border-color: #AF9680;
+  border-width: thick;
+  transition: all 0.5s ease 0s;
+  width:100%
+}
+
+.btn-bici-grande:hover{
+    color: #fff;
+    background-color: #AF9680;
 }
