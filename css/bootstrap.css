@@ -7077,7 +7077,6 @@ button.close {
 
 .pabsolute{
     position: absolute; 
-    border: solid; 
     bottom: 0; 
     right: 0;  
     left: 0;
