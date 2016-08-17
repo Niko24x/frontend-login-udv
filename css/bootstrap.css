@@ -6781,9 +6781,9 @@ button.close {
     /* reset the text-align */
     text-align:left;
     /* inline-block space fix */
-    margin-right:-4px;
+    /*margin-right:-4px;*/
     
-}
+} /*Alineado a la izquierda*/
 
 .col-centered2 {
     display:inline-block;
@@ -6791,39 +6791,39 @@ button.close {
     /* reset the text-align */
     text-align:center;
     /* inline-block space fix */
-    margin-right:-4px;
-}
+    /*margin-right:-4px;*/
+} /*Alineado al centro*/
 
-/*color beige para el form*/
 .panel-beige > .panel-heading {
+    
   color: #fff;
   background-color: #8E7A65;
   border-color: #ddd;
     border-top-right-radius:0px;
     border-top-left-radius: 0px;
-}
+} /*panel beige heading*/
+
 .panel-beige {
   border-color: #555;
-}
+} /*panel beige*/
 
 .btn-beige {
   color: #fff;
   background-color: #8E7A65;
   border-color: #ccc;
   transition: all 0.5s ease 0s
-}
+} /*boton beige*/
+
 .btn-beige:hover {
   color: #8E7A65;
   background-color: #DECE96;
   border-color: #ccc;
   
-}
+} /*hover boton beige*/
 
-/*color azul para el form*/
-/*color azul para el form*/
 .panel-azul {
   border-color: #555;
-}
+} /*panel azul*/
 
 .panel-azul > .panel-heading {
   color: #fff;
@@ -6831,57 +6831,103 @@ button.close {
   border-color: #ddd;
     border-top-right-radius:0px;
     border-top-left-radius: 0px;
-}
+} /* heading panel azul*/
 
 .btn-azul {
   color: #fff;
   background-color: #1A1B33;
   border-color: #ccc;
   transition: all 0.5s ease 0s
-}
+} /* boton azul*/
+
 .btn-azul:hover {
   color: #1A1B33;
   background-color: #A7A9E4;
   border-color: #ccc;
   
-}
+} /*hover boton azul*/
 
 .imageb {
     background-image: url(../img/login_bici.jpg);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100%;
-    /*width: 100%;*/
-}
+} /*fondo bicicleta */
+
+.imagea {
+    background-image: url(../img/login_planeador.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} /*fondo aereoplano*/
 
 .panel-bici {
+    min-height: 80%;
     border-color: #878787; 
     background: rgba(255,0,0,0);
     border-radius: 35px;
     border-width: thick;
+    padding-left:0;
+    padding-right:0;
     
-}
+} /* Panel bicicleta */
 
 .panel-bici > .panel-heading {
+    height: 10%;
     background: rgba(255,0,0,0);
     border-top-right-radius:0px;
     border-top-left-radius: 0px; 
-}
+} /* heading panel bicicleta*/
 
 .panel-bici > .panel-body {
+    height: 50%;
     background: rgba(255,0,0,0);
     border-top-right-radius:0px;
     border-top-left-radius: 0px; 
-}
+} /*body panel bicicleta*/
 
 .panel-bici > .panel-footer {
+  height: 20%;
   background: #DEC9AF;
-  border-bottom-right-radius: 31px;
-  border-bottom-left-radius: 31px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
   margin-bottom: 0;   
-}
+} /*footer panel bicicleta*/
+
+.panel-aereo {
+    min-height: 80%;
+    border-color: #878787; 
+    background: rgba(255,0,0,0);
+    border-radius: 35px;
+    border-width: thick;
+    padding-left:0;
+    padding-right:0;
+    
+} /* Panel aereo */
+
+.panel-aereo > .panel-heading {
+    height: 10%;
+    background: rgba(255,0,0,0);
+    border-top-right-radius:0px;
+    border-top-left-radius: 0px; 
+} /* heading panel aereo*/
+
+.panel-aereo > .panel-body {
+    height: 50%;
+    background: rgba(255,0,0,0);
+    border-top-right-radius:0px;
+    border-top-left-radius: 0px; 
+} /*body panel aereo*/
+
+.panel-aereo > .panel-footer {
+  height: 20%;
+  background: #D3B697;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-bottom: 0;   
+} /*footer panel aereo*/
 
 .form-control-transforma {
   display: block;
@@ -6899,7 +6945,7 @@ button.close {
   background-size: contain;
   border: 1px solid #ccc;
   border-radius: 4px;
-}
+} /*Input con imagen de fondo transforma*/
 
 .form-control-mente {
   display: block;
@@ -6918,29 +6964,38 @@ button.close {
   border: 1px solid #ccc;
   border-radius: 4px;
     
-}
-
-
+}  /*Input con imagen de fondo mente*/
 
 .btn-bici {
   color: #fff;
   background-color: #AF9680;
   border-color: #ccc;
   transition: all 0.5s ease 0s;
-}
+} /* boton bici*/
 
 .btn-bici:hover{
     color: #fff;
     background-color: #DEC9AF;
-}
-.botones{
+} /* hover boton bici*/
+
+.btn-aereo {
+  color: #fff;
+  background-color: #B37D62;
+  transition: all 0.5s ease 0s;
+} /* aereo boton */
+
+.btn-aereo:hover{
+    color: #fff;
+    background-color: #DEC9AF;
+} /* hover aereo boton */
+
+.fleft{
     float: left;
+} /* posiciona a la izquierda */
 
-}
-
-.botones2{    
+.fright{    
    float: right;
-}
+} /* posiciona a la derecha */
 
 .btn-bici-grande {
   color: #fff;
@@ -6949,9 +7004,46 @@ button.close {
   border-width: thick;
   transition: all 0.5s ease 0s;
   width:100%
-}
+} /*boton para panel bici */
+
+.btn-aereo-grande {
+  color: #fff;
+  background-color: #D3B697;
+  border-color: #B37D62;
+  border-width: thick;
+  transition: all 0.5s ease 0s;
+  width:100%
+} /* hover boton para panel aereo */
+
+.btn-aereo-grande:hover{
+    color: #fff;
+    background-color: #B37D62;
+} /* hover boton para panel aereo */
 
 .btn-bici-grande:hover{
     color: #fff;
     background-color: #AF9680;
-}
+} /* hover boton para panel bici */
+
+.no-pad{
+    padding-right: 0px;
+    padding-left: 0px;
+} /* Elimina padding */
+
+.prelative{
+    position: relative;
+    height: 100%;
+    display:block;
+} /*Set relative */
+
+.pabsolute{
+    position: absolute; 
+    border: solid; 
+    bottom: 0; 
+    right: 0;  
+    left: 0;
+} /*Set absolute */
+
+.fullspace{
+    height:100%;
+} /*Set full height*/
