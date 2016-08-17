@@ -6863,6 +6863,14 @@ button.close {
     background-size: cover;
 } /*fondo aereoplano*/
 
+.imagev{
+    background-image: url(../img/login_vitruvio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} /*fondo vitruvio*/
+
 .panel-bici {
     min-height: 80%;
     border-color: #878787; 
@@ -6929,6 +6937,13 @@ button.close {
   margin-bottom: 0;   
 } /*footer panel aereo*/
 
+.panel-aereo > .panel-footer1 {
+  background: #EBE1CA;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-bottom: 0;   
+} /*footer panel aereo*/
+
 .form-control-transforma {
   display: block;
   width: 100%;
@@ -6978,6 +6993,16 @@ button.close {
     background-color: #DEC9AF;
 } /* hover boton bici*/
 
+.btn-aereo1 {
+  color: #fff;
+  background-color: #B19D7A;
+  transition: all 0.5s ease 0s;
+} /* aereo boton */
+
+.btn-aereo1:hover{
+    color: #fff;
+    background-color: #EBE1CA;
+} /* hover aereo boton */
 .btn-aereo {
   color: #fff;
   background-color: #B37D62;
@@ -7005,6 +7030,20 @@ button.close {
   transition: all 0.5s ease 0s;
   width:100%
 } /*boton para panel bici */
+
+.btn-aereo-grande1 {
+  color: #fff;
+  background-color: #EBE1CA;
+  border-color: #B19D7A;
+  border-width: thick;
+  transition: all 0.5s ease 0s;
+  width:100%
+} /* hover boton para panel aereo */
+
+.btn-aereo-grande1:hover{
+    color: #fff;
+    background-color: #B19D7A;
+} /* hover boton para panel aereo */
 
 .btn-aereo-grande {
   color: #fff;
